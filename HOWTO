@@ -1,0 +1,21 @@
+# Some basic inctructions on how to add/modify content in this course
+
+## Add new lecture/practical from existing Github repo
+
+```
+cd materials
+git submodule add <url to repo>
+cd ..
+git commit -m 
+git push origin main
+```
+
+# Update content from remote repo
+
+```
+git submodule update --remote
+```
+
+You always need to push to the master repository to update readthedocs!
+
+
