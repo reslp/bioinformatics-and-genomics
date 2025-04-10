@@ -1,4 +1,4 @@
-git submodule update --remote# .readthedocs.yaml
+# .readthedocs.yaml
 # Read the Docs configuration file
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 
