@@ -16,6 +16,7 @@ The focus of this module is on essential skills for producing as well as evaluat
 - Reproducibility in modern computer-assisted biology and data science in general  
 
 The module is devided into 3 individual lectures:  
+
 :raw-html:`<br />`
 
 1. Genomic Methods in Evolutionary Biology and Ecology  
@@ -79,25 +80,37 @@ Genomic Methods in Ecology and Evolutionary Biology
 Databases in Ecology and Comparative Genomics
 ---------------------------------------------
 
++-----+--------------+----------------------------------------------------------------------------------+----------+
+| Day | Date         | Topics                                                                           | Material |
++=====+==============+==================================================================================+==========+
+| 1   | 16 June 2025 | Databases in (comparative) Genomics: NCBI-Genbank, PFAM, InterPro, GO, OrthoDB,  | xxx      |
+|     |              | etc.                                                                             |          |
++-----+--------------+----------------------------------------------------------------------------------+----------+
+| 2   | 17 June 2025 | Databases in Metabarcoding: Kraken, Silva, BOLD                                  | xxx      |
++-----+--------------+----------------------------------------------------------------------------------+----------+
+| 3   | 18 June 2025 | Databases in Ecology: Gbif, WorldClim                                            | xxx      |
++-----+--------------+----------------------------------------------------------------------------------+----------+
+| 4   | 23 June 2025 | Working on indiviual project                                                     | xxx      |
++-----+--------------+----------------------------------------------------------------------------------+----------+
 
-| Day | Date | Topics | Material |
-| :---- | :---- | :---- | :---- |
-| 1 | 16 June 2025 | Databases in (comparative) Genomics: NCBI-Genbank, PFAM, InterPro, GO, OrthoDB, etc. | xxx |
-| 2 | 17 June 2025 | Databases in Metabarcoding: Kraken, Silva, BOLD | xxx |
-| 3 | 18 June 2025 | Databases in Ecology: Gbif, WorldClim | xxx |
-| 4 | 23 June 2025 | Working on indiviual project | xxx |
 
 
 ---------------------------------------------
 Fundamentals of Reproducible Data Analysis
 ---------------------------------------------
 
-| Day | Date | Topics | Material |
-| :---- | :---- | :---- | :---- |
-| 1 | 06 June 2025 | Advanced command line, random numbers, Reproducible software installation, Data organization, Git | xxx |
-| 2 | 11 June 2025 | Virtual environments, Container basics, advanced topics and pitfalls | xxx |
-| 3 | 12 June 2025 | Workflow management systems: GNU Make, Snakemake, Nextflow | xxx |
-| 4 | 13 June 2025 | Working on individual project | xxx |
++-----+--------------+------------------------------------------------------------------------------+----------+
+| Day | Date         | Topics                                                                       | Material |
++=====+==============+==============================================================================+==========+
+| 1   | 06 June 2025 | Advanced command line, random numbers, Reproducible software installation,    | xxx      |
+|     |              | Data organization, Git                                                       |          |
++-----+--------------+------------------------------------------------------------------------------+----------+
+| 2   | 11 June 2025 | Virtual environments, Container basics, advanced topics and pitfalls         | xxx      |
++-----+--------------+------------------------------------------------------------------------------+----------+
+| 3   | 12 June 2025 | Workflow management systems: GNU Make, Snakemake, Nextflow                   | xxx      |
++-----+--------------+------------------------------------------------------------------------------+----------+
+| 4   | 13 June 2025 | Working on individual project                                                | xxx      |
++-----+--------------+------------------------------------------------------------------------------+----------+
 
 
 .. toctree::
@@ -106,6 +119,10 @@ Fundamentals of Reproducible Data Analysis
    :maxdepth: 1
    :hidden:
 
-   linux-intro/README.md
+   linux-intro/README
+   phylogenomics_intro_vertebrata/README
+   AMEB_HPC_demo/README
+   post-assembly-intro/README
+   short-read-processing-and-assembly/README
 
 
