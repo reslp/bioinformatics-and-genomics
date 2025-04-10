@@ -112,16 +112,41 @@ Fundamentals of Reproducible Data Analysis
 
 
 .. toctree::
-   :caption: Genomic Methods
-   :name: genomic
+   :caption: Linux Intro
    :maxdepth: 1
    :hidden:
    :glob:
 
    linux-intro/README.md
+
+
+.. toctree::
+   :caption: Phylogenomics
+   :maxdepth: 1
+   :hidden:
+   :glob:
    phylogenomics_intro_vertebrata/README.md
+
+
+.. toctree::
+   :caption: HPC demo
+   :maxdepth: 1
+   :hidden:
+   :glob:
    AMEB_HPC_demo/README
+
+.. toctree::
+   :caption: Post Assembly
+   :maxdepth: 1
+   :hidden:
+   :glob:
    post-assembly-intro/README
+
+.. toctree::
+   :caption: Genome assembly
+   :maxdepth: 1
+   :hidden:
+   :glob:
    short-read-processing-and-assembly/README
 
 
