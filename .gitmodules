@@ -1,12 +1,15 @@
 [submodule "phylogenomics_intro_vertebrata"]
-	path = phylogenomics_intro_vertebrata
+	path = materials/phylogenomics_intro_vertebrata
 	url = https://github.com/chrishah/phylogenomics_intro_vertebrata
 [submodule "post-assembly-intro"]
-	path = post-assembly-intro
+	path = materials/post-assembly-intro
 	url = https://github.com/chrishah/post-assembly-intro
 [submodule "short-read-processing-and-assembly"]
-	path = short-read-processing-and-assembly
+	path = materials/short-read-processing-and-assembly
 	url = https://github.com/chrishah/short-read-processing-and-assembly
 [submodule "AMEB_HPC_demo"]
-	path = AMEB_HPC_demo
+	path = materials/AMEB_HPC_demo
 	url = https://github.com/chrishah/AMEB_HPC_demo
+[submodule "linux-intro"]
+	path = materials/linux-intro
+	url = https://github.com/reslp/linux-intro
