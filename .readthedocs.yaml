@@ -14,6 +14,7 @@ build:
 submodules: 
   include: 
     - materials/linux-intro
+    - materials/*
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
