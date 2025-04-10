@@ -7,9 +7,9 @@ from datetime import datetime
 
 from recommonmark.parser import CommonMarkParser
 
+source_suffix = ['.rst', '.md']
 source_parsers = {'.md': CommonMarkParser}
 
-source_suffix = ['.rst', '.md']
 # -- Project information -----------------------------------------------------
 
 project = "Genomic Methods"

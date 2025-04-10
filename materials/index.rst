@@ -17,8 +17,6 @@ The focus of this module is on essential skills for producing as well as evaluat
 
 The module is devided into 3 individual lectures:  
 
-:raw-html:`<br />`
-
 1. Genomic Methods in Evolutionary Biology and Ecology  
 2. Databases in Ecology and Comparative Genomics  
 3. Fundamentals of Reproducable Data Analysis  
@@ -118,6 +116,7 @@ Fundamentals of Reproducible Data Analysis
    :name: genomic
    :maxdepth: 1
    :hidden:
+   :glob:
 
    linux-intro/README.md
    phylogenomics_intro_vertebrata/README.md
