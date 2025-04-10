@@ -119,34 +119,37 @@ Fundamentals of Reproducible Data Analysis
 
    linux-intro/README.md
 
+.. toctree::
+   :caption: HPC intro
+   :name: hpcdemo
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   AMEB_HPC_demo/README
+
+.. toctree::
+   :caption: Genome Assembly
+   :name: assembly
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   short-read-processing-and-assembly/README
+
+.. toctree::
+   :caption: Post Assembly
+   :name: postassembly
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   post-assembly-intro/README
 
 .. toctree::
    :caption: Phylogenomics
    :maxdepth: 1
    :hidden:
    :glob:
+
    phylogenomics_intro_vertebrata/README.md
-
-
-.. toctree::
-   :caption: HPC demo
-   :maxdepth: 1
-   :hidden:
-   :glob:
-   AMEB_HPC_demo/README
-
-.. toctree::
-   :caption: Post Assembly
-   :maxdepth: 1
-   :hidden:
-   :glob:
-   post-assembly-intro/README
-
-.. toctree::
-   :caption: Genome assembly
-   :maxdepth: 1
-   :hidden:
-   :glob:
-   short-read-processing-and-assembly/README
-
-
