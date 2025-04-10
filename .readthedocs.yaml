@@ -19,8 +19,9 @@ submodules:
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
   configuration: materials/conf.py
-  formats:
-    - pdf
+
+formats:
+  - pdf
 
 python:
   install:
