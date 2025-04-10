@@ -102,7 +102,7 @@ Fundamentals of Reproducible Data Analysis
 +-----+--------------+------------------------------------------------------------------------------+----------+
 | Day | Date         | Topics                                                                       | Material |
 +=====+==============+==============================================================================+==========+
-| 1   | 06 June 2025 | Advanced command line, random numbers, Reproducible software installation,    | xxx      |
+| 1   | 06 June 2025 | Advanced command line, random numbers, Reproducible software installation,   | xxx      |
 |     |              | Data organization, Git                                                       |          |
 +-----+--------------+------------------------------------------------------------------------------+----------+
 | 2   | 11 June 2025 | Virtual environments, Container basics, advanced topics and pitfalls         | xxx      |
@@ -119,8 +119,8 @@ Fundamentals of Reproducible Data Analysis
    :maxdepth: 1
    :hidden:
 
-   linux-intro/README
-   phylogenomics_intro_vertebrata/README
+   linux-intro/README.md
+   phylogenomics_intro_vertebrata/README.md
    AMEB_HPC_demo/README
    post-assembly-intro/README
    short-read-processing-and-assembly/README
