@@ -23,7 +23,7 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinx.ext.viewcode",
     "sphinx_rtd_theme",
-    "sphinx_markdown_tables",,
+    "sphinx_markdown_tables",
 ]
 
 # -- Options for HTML output -------------------------------------------------
