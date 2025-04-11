@@ -3,7 +3,7 @@
 This repository contains information about the Module D1/G1 - Bioinformatics and Genomics of the Biology Master curriculum at the University of Graz.
 A rendered version can be found here: https://bioinformatics-and-genomics.readthedocs.io/en/latest/
 
-https://readthedocs.org/projects/bioinformatics-and-genomics/badge/?version=latest
+![RTD badge](https://readthedocs.org/projects/bioinformatics-and-genomics/badge/?version=latest)
 
 ### Contents
 
