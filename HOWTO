@@ -18,4 +18,11 @@ git submodule update --remote
 
 You always need to push to the master repository to update readthedocs!
 
+# Build locally:
+
+In `materials` folder run:
+
+```
+docker run --rm -v $(pwd):/docs reslp/sphinx:8.1.3 make html
+```
 
