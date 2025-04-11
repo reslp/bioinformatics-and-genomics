@@ -5,3 +5,4 @@ furo
 pandoc
 py-gfm
 sphinx-markdown-tables
+myst-parser
