@@ -113,7 +113,7 @@ Fundamentals of Reproducible Data Analysis
 
 .. toctree::
    :caption: Linux Intro
-   :maxdepth: 1
+   :maxdepth: 2
    :hidden:
    :glob:
 
