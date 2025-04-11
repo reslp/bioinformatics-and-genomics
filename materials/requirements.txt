@@ -2,3 +2,6 @@ sphinx >=3
 recommonmark
 sphinx_rtd_theme
 furo
+pandoc
+py-gfm
+sphinx-markdown-tables

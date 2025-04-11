@@ -5,16 +5,18 @@ from datetime import datetime
 #sys.path.append(os.path.join(os.environ["SAMPLE_DOCS_LOCATION"], "demo"))
 #print("", sys.path[-1], "", sep="\n" + "-" * 80 + "\n")
 
-from recommonmark.parser import CommonMarkParser
+#from recommonmark.parser import CommonMarkParser
+#from mdx_gfm import GithubFlavoredMarkdownExtension
 
 source_suffix = ['.rst', '.md']
-source_parsers = {'.md': CommonMarkParser}
+#source_parsers = {'.md': CommonMarkParser}
+#source_parsers = {'.md': GithubFlavoredMarkdownExtension()}
 
 # -- Project information -----------------------------------------------------
 
 project = "Genomic Methods"
-copyright = "2025, Philipp Resl and Christoph Hahn"
-author = "Philipp Resl and Christoph Hahn"
+copyright = "2025, Philipp Resl, Claudio G. Ametrano and Christoph Hahn"
+author = "Philipp Resl, Claudio G. Ametrano and Christoph Hahn"
 
 # -- Extensions --------------------------------------------------------------
 extensions = [
@@ -24,6 +26,8 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinx_rtd_theme",
     "sphinx_markdown_tables",
+#    "recommonmark",
+    "myst_parser",
 ]
 
 # -- Options for HTML output -------------------------------------------------
@@ -68,7 +72,6 @@ html_sidebars = {
 #    'sphinx.ext.viewcode',
 #    'sphinx.ext.autosectionlabel',
 #]
-extensions = ['recommonmark']
 
 date = datetime.now()
 copyright = "{year}, Philipp Resl and Christoph Hahn".format(year=date.timetuple()[0])
