@@ -1,6 +1,12 @@
 import os
 import sys
 from datetime import datetime
+import subprocess
+
+# check if documentation is built on the rtd server, in which case the conversion script needs to be run first.
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+if on_rtd:
+	subprocess.check_call(['python', 'convert-gfm.py']) 
 
 #sys.path.append(os.path.join(os.environ["SAMPLE_DOCS_LOCATION"], "demo"))
 #print("", sys.path[-1], "", sep="\n" + "-" * 80 + "\n")
