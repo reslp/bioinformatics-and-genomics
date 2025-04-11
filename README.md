@@ -3,6 +3,8 @@
 This repository contains information about the Module D1/G1 - Bioinformatics and Genomics of the Biology Master curriculum at the University of Graz.
 A rendered version can be found here: https://bioinformatics-and-genomics.readthedocs.io/en/latest/
 
+https://readthedocs.org/projects/bioinformatics-and-genomics/badge/?version=latest
+
 ### Contents
 
 This module is part of the specialization in "Evolutionary Ecology" and the specialization in "Digital Biology."\
