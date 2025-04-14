@@ -62,7 +62,7 @@ Lectures by teachers and students, a mix of interactive didactic teaching and gu
 | 1 | 16 June 2025 | Databases in (comparative) Genomics: Nucleotide and protein databases (NCBI-Genbank & Co. OrthoDB, etc.) | xxx |
 | 2 | 17 June 2025 | Databases in Metabarcoding (Kraken, Silva, BOLD, UNITE etc.) and Ecology (e.g. Gbif, WorldClim, Copernicus) | xxx |
 | 3 | 18 June 2025 | Databases for functional annotation (PFAM, InterPro, GO, KEGG etc.)   | xxx |
-| 4 | 23 June 2025 | Working on indiviual project | xxx |
+| 4 | 23 June 2025 | Working on individual project | xxx |
 
 
 ## Fundamentals of Reproducible Data Analysis
