@@ -13,3 +13,6 @@
 [submodule "linux-intro"]
 	path = materials/linux-intro
 	url = https://github.com/reslp/linux-intro
+[submodule "materials/reproducibility-workshop"]
+	path = materials/reproducibility-workshop
+	url = https://github.com/reslp/reproducibility-workshop
