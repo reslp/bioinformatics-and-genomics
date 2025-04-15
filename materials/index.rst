@@ -81,12 +81,13 @@ Databases in Ecology and Comparative Genomics
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 | Day | Date         | Topics                                                                           | Material |
 +=====+==============+==================================================================================+==========+
-| 1   | 16 June 2025 | Databases in (comparative) Genomics: NCBI-Genbank, PFAM, InterPro, GO, OrthoDB,  | xxx      |
-|     |              | etc.                                                                             |          |
+| 1   | 16 June 2025 | Databases in (comparative) Genomics: Nucleotide and protein databases            | xxx      |
+|     |              | (NCBI-Genbank & Co. OrthoDB, etc.)                                               |          |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 2   | 17 June 2025 | Databases in Metabarcoding: Kraken, Silva, BOLD                                  | xxx      |
+| 2   | 17 June 2025 | Databases in Metabarcoding (Kraken, Silva, BOLD, UNITE etc.)                     | xxx      |
+|     |              | and Ecology (e.g. Gbif, WorldClim, Copernicus)                                   |          |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 3   | 18 June 2025 | Databases in Ecology: Gbif, WorldClim                                            | xxx      |
+| 3   | 18 June 2025 | Databases for functional annotation (PFAM, InterPro, GO, KEGG etc.)              | xxx      |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 | 4   | 23 June 2025 | Working on indiviual project                                                     | xxx      |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
@@ -97,18 +98,34 @@ Databases in Ecology and Comparative Genomics
 Fundamentals of Reproducible Data Analysis
 ---------------------------------------------
 
-+-----+--------------+------------------------------------------------------------------------------+----------+
-| Day | Date         | Topics                                                                       | Material |
-+=====+==============+==============================================================================+==========+
-| 1   | 06 June 2025 | Advanced command line, random numbers, Reproducible software installation,   | xxx      |
-|     |              | Data organization, Git                                                       |          |
-+-----+--------------+------------------------------------------------------------------------------+----------+
-| 2   | 11 June 2025 | Virtual environments, Container basics, advanced topics and pitfalls         | xxx      |
-+-----+--------------+------------------------------------------------------------------------------+----------+
-| 3   | 12 June 2025 | Workflow management systems: GNU Make, Snakemake, Nextflow                   | xxx      |
-+-----+--------------+------------------------------------------------------------------------------+----------+
-| 4   | 13 June 2025 | Working on individual project                                                | xxx      |
-+-----+--------------+------------------------------------------------------------------------------+----------+
++-----+--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| Day | Date         | Topics                                                                       | Material                                                                                             |
++=====+==============+==============================================================================+======================================================================================================+
+| 1   | 06 June 2025 | Advanced command line, random numbers, Reproducible software installation,   | `about <reproducibility-workshop/introduction/about.html>`_                                          |
+|     |              | Data organication, Git                                                       |                                                                                                      |
+|     |              |                                                                              | `working environment <reproducibility-workshop/introduction/setup.html>`_                            |
+|     |              |                                                                              |                                                                                                      |
+|     |              |                                                                              | `exercise 1 <reproducibility-workshop/day-1/exercise-1-shell-intro.html>`_                           |
+|     |              |                                                                              |                                                                                                      |
+|     |              |                                                                              | `exercise 2 <reproducibility-workshop/day-1/exercise-2-reproducible-software-installation.html>`_    |  
+|     |              |                                                                              |                                                                                                      |
+|     |              |                                                                              | `exercise 3 <reproducibility-workshop/day-1/exercise-3-data-organization.html>`_                     |
+|     |              |                                                                              |                                                                                                      |
+|     |              |                                                                              | `exercise 4 <reproducibility-workshop/day-1/exercise-4-git.html>`_                                   |
++-----+--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| 2   | 11 June 2025 | Virtual environments, Container basics, advanced topics and pitfalls         |                                                                                                      |
+|     |              |                                                                              | `exercise 1 <reproducibility-workshop/day-2/exercise-1-conda.html>`_                                 |
+|     |              |                                                                              |                                                                                                      |
+|     |              |                                                                              | `exercise 2 <reproducibility-workshop/day-2/exercise-2-docker.html>`_                                |  
+|     |              |                                                                              |                                                                                                      |
+|     |              |                                                                              | `exercise 3 <reproducibility-workshop/day-2/exercise-3-advanced-docker.html>`_                       |
+|     |              |                                                                              |                                                                                                      |
+|     |              |                                                                              | `exercise 4 <reproducibility-workshop/day-3/exercise-4-docker-pitfalls.html>`_                       |
++-----+--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| 3   | 12 June 2025 | Workflow management systems: GNU Make, Snakemake, Nextflow                   | `exercise 1 <reproducibility-workshop/day-3/exercise-1-workflows.html>`_                             |
++-----+--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| 4   | 13 June 2025 | Working on individual project                                                | `exercise 1 <reproducibility-workshop/day-3/exercise-1-phylogenomics.html>`_                         |
++-----+--------------+------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 
 .. toctree::
@@ -153,3 +170,25 @@ Fundamentals of Reproducible Data Analysis
    :glob:
 
    phylogenomics_intro_vertebrata/README.md
+
+
+.. toctree::
+   :caption: Reproducibility Fundamentals
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   reproducibility-workshop/introduction/about.rst
+   reproducibility-workshop/introduction/setup.rst
+   reproducibility-workshop/day-1/exercise-1-shell-intro.rst
+   reproducibility-workshop/day-1/exercise-2-reproducible-software-installation.rst
+   reproducibility-workshop/day-1/exercise-3-data-organization.rst
+   reproducibility-workshop/day-1/exercise-4-git.rst
+
+   reproducibility-workshop/day-2/exercise-1-conda.rst
+   reproducibility-workshop/day-2/exercise-2-docker-intro.rst
+   reproducibility-workshop/day-2/exercise-3-advanced-docker.rst
+   reproducibility-workshop/day-2/exercise-4-docker-pitfalls.rst
+
+   reproducibility-workshop/day-3/exercise-1-workflows.rst
+   reproducibility-workshop/day-3/exercise-2-phylogenomics.rst
