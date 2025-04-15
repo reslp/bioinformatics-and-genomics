@@ -80,7 +80,7 @@ html_sidebars = {
 #]
 
 date = datetime.now()
-copyright = "{year}, Philipp Resl and Christoph Hahn".format(year=date.timetuple()[0])
+copyright = "{year}, Philipp Resl, Claudio G. Ametrano and Christoph Hahn".format(year=date.timetuple()[0])
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
