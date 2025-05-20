@@ -83,7 +83,7 @@ Databases in Ecology and Comparative Genomics
 | Day | Date         | Topics                                                                           | Material |
 +=====+==============+==================================================================================+==========+
 | 1   | 16 June 2025 | Sequence Databases (e.g. NCBI-Genbank, OrthoDB)                                  | xxx      |
-|     |              | and similarity Search (e.g. BLAST, HMMER)                                        |          |
+|     |              | and similarity search (e.g. BLAST, HMMER)                                        |          |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 | 2   | 17 June 2025 | Databases in Metabarcoding (e.g. Silva, BOLD, UNITE):                            | xxx      |
 |     |              | taxonomic assignment and ecological metadata (e.g. Gbif, WorldClim,              |          |
