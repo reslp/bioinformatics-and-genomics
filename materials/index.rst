@@ -82,13 +82,14 @@ Databases in Ecology and Comparative Genomics
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 | Day | Date         | Topics                                                                           | Material |
 +=====+==============+==================================================================================+==========+
-| 1   | 16 June 2025 | Databases in (comparative) Genomics: Nucleotide and protein databases            | xxx      |
-|     |              | (NCBI-Genbank & Co. OrthoDB, etc.)                                               |          |
+| 1   | 16 June 2025 | Sequence Databases (e.g. NCBI-Genbank, OrthoDB)                                  | xxx      |
+|     |              | and similarity Search (e.g. BLAST, HMMER)                                        |          |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 2   | 17 June 2025 | Databases in Metabarcoding (Kraken, Silva, BOLD, UNITE etc.)                     | xxx      |
-|     |              | and Ecology (e.g. Gbif, WorldClim, Copernicus)                                   |          |
+| 2   | 17 June 2025 | Databases in Metabarcoding (e.g. Silva, BOLD, UNITE):                            | xxx      |
+|     |              | taxonomic assignment and ecological metadata (e.g. Gbif, WorldClim,              |          |
+|     |              | Copernicus)                                                                      |          |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 3   | 18 June 2025 | Databases for functional annotation (PFAM, InterPro, GO, KEGG etc.)              | xxx      |
+| 3   | 18 June 2025 | Databases for functional annotation (e.g. Pfam-InterPro, GO, KEGG)               | xxx      |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 | 4   | 23 June 2025 | Working on indiviual project                                                     | xxx      |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
