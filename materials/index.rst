@@ -89,8 +89,8 @@ Databases in Ecology and Comparative Genomics
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 | 3   | 18 June 2025 | Databases for functional annotation                                              | xxx      |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 4   | 23 June 2025 | Databases for functional annotation continues                                    | xxx      |
-|     |              | and Working on indiviual projects (final taks A-E)                               |          |  
+| 4   | 23 June 2025 | Databases for functional annotation continues and                                | xxx      |
+|     |              | Working on indiviual projects (final taks A-E)                                   |          |  
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 
 
