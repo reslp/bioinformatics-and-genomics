@@ -16,3 +16,6 @@
 [submodule "materials/reproducibility-workshop"]
 	path = materials/reproducibility-workshop
 	url = https://github.com/reslp/reproducibility-workshop
+[submodule "materials/sequence_databases_similarity_search"]
+	path = materials/sequence_databases_similarity_search
+	url = https://github.com/claudioametrano/sequence_databases_similarity_search
