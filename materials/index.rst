@@ -82,16 +82,15 @@ Databases in Ecology and Comparative Genomics
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 | Day | Date         | Topics                                                                           | Material |
 +=====+==============+==================================================================================+==========+
-| 1   | 16 June 2025 | Sequence Databases (e.g. NCBI-Genbank, OrthoDB)                                  | xxx      |
-|     |              | and similarity search (e.g. BLAST, HMMER)                                        |          |
+| 1   | 16 June 2025 | Sequence Databases and similarity search                                         | `sequence DB <https://github.com/claudioametrano/sequence_databases_similarity_search>`                             |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 2   | 17 June 2025 | Databases in Metabarcoding (e.g. Silva, BOLD, UNITE):                            | xxx      |
-|     |              | taxonomic assignment and ecological metadata (e.g. Gbif, WorldClim,              |          |
-|     |              | Copernicus)                                                                      |          |
+| 2   | 17 June 2025 | Metabarcoding and metagenomic databases:                                         | xxx      |
+|     |              | taxonomic assignment and ecological metadata                                     |          |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 3   | 18 June 2025 | Databases for functional annotation (e.g. Pfam-InterPro, GO, KEGG)               | xxx      |
+| 3   | 18 June 2025 | Databases for functional annotation                                              | xxx      |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 4   | 23 June 2025 | Working on indiviual project                                                     | xxx      |
+| 4   | 23 June 2025 | Databases for functional annotation continues                                    | xxx      |
+|     |              | and Working on indiviual projects (final taks A-E)                               |          |  
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 
 
