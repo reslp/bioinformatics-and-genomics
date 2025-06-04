@@ -21,6 +21,19 @@ git push origin main
 
 You always need to push to the master repository to update readthedocs!
 
+# Change the branch of a submodule
+
+```
+cd materials/reproducibility-workshop
+git checkout unigraz
+git pull # may not be necessary, git will tell you
+git branch --set-upstream-to=origin/unigraz
+cd ../../
+git add materials/reproducibility-workshop
+git commit -m "Updated submodule to track unigraz branch"
+```
+
+
 # Build locally:
 
 In `materials` folder run:
