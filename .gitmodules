@@ -22,3 +22,6 @@
 [submodule "materials/metab_metag_db"]
 	path = materials/metab_metag_db
 	url = https://github.com/claudioametrano/metab_metag_db
+[submodule "materials/metab_db"]
+	path = materials/metab_db
+	url = https://github.com/claudioametrano/metab_db.git
