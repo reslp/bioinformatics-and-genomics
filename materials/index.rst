@@ -172,7 +172,7 @@ Fundamentals of Reproducible Data Analysis
    phylogenomics_intro_vertebrata/README.md
 
 .. toctree::
-   :caption: Similarity
+   :caption: Sequence databases
    :maxdepth: 1
    :hidden:
    :glob:
@@ -180,7 +180,7 @@ Fundamentals of Reproducible Data Analysis
    sequence_databases_similarity_search/README.md
 
 .. toctree::
-   :caption: Similarity
+   :caption: Metabarcoding databases
    :maxdepth: 1
    :hidden:
    :glob:
@@ -188,7 +188,7 @@ Fundamentals of Reproducible Data Analysis
    metab_db/README.md
 
 .. toctree::
-   :caption: Similarity
+   :caption: Functional annotattion databases
    :maxdepth: 1
    :hidden:
    :glob:
