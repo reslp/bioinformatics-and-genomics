@@ -25,3 +25,6 @@
 [submodule "materials/metab_db"]
 	path = materials/metab_db
 	url = https://github.com/claudioametrano/metab_db.git
+[submodule "materials/functional_annotation_db"]
+	path = materials/functional_annotation_db
+	url = https://github.com/claudioametrano/functional_annotation_db.git
