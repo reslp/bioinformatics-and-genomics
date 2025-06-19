@@ -84,12 +84,12 @@ Databases in Ecology and Comparative Genomics
 +=====+==============+==================================================================================+==========+
 | 1   | 16 June 2025 | Sequence Databases and similarity search                                         | xxx      |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 2   | 17 June 2025 | Metabarcoding and metagenomic databases:                                         | xxx      |
+| 2   | 17 June 2025 | Metabarcoding databases:                                         | xxx      |
 |     |              | taxonomic assignment and ecological metadata                                     |          |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 | 3   | 18 June 2025 | Databases for functional annotation                                              | xxx      |
 +-----+--------------+----------------------------------------------------------------------------------+----------+
-| 4   | 23 June 2025 | Databases for functional annotation continues and                                | xxx      |
+| 4   | 23 June 2025 |                                 | xxx      |
 |     |              | Working on indiviual projects (final taks A-E)                                   |          |  
 +-----+--------------+----------------------------------------------------------------------------------+----------+
 
