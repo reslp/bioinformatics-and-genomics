@@ -171,6 +171,29 @@ Fundamentals of Reproducible Data Analysis
 
    phylogenomics_intro_vertebrata/README.md
 
+.. toctree::
+   :caption: Similarity
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   sequence_databases_similarity_search/README.md
+
+.. toctree::
+   :caption: Similarity
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   metab_db/README.md
+
+.. toctree::
+   :caption: Similarity
+   :maxdepth: 1
+   :hidden:
+   :glob:
+
+   functional_annotation_db/README.md
 
 .. toctree::
    :caption: Reproducibility Fundamentals
