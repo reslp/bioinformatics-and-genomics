@@ -1,0 +1,35 @@
+{# Custom course navigation maintained in conf.py via html_context["course_menu"]. #}
+{% macro course_href(href) -%}
+  {%- set parts = href.split('#', 1) -%}
+  {%- set base = pathto(parts[0], 1) -%}
+  {%- if parts|length > 1 and base == '#' -%}
+    #{{ parts[1] }}
+  {%- else -%}
+    {{- base -}}{%- if parts|length > 1 -%}#{{ parts[1] }}{%- endif -%}
+  {%- endif -%}
+{%- endmacro %}
+
+<div class="sidebar-tree">
+  {% for section in course_menu %}
+    <p class="caption" role="heading"><span class="caption-text">{{ section.caption }}</span></p>
+    <ul>
+      {% for item in section.entries %}
+        {% set is_current = pagename == item.doc or (item.doc and pagename.startswith(item.doc ~ '/')) %}
+        <li class="toctree-l1{% if item.children %} has-children{% endif %}{% if is_current %} current{% endif %}">
+          <a class="reference internal{% if is_current %} current{% endif %}" href="{{ course_href(item.href) }}">{{ item.title }}</a>
+          {% if item.children %}
+            <input aria-label="Toggle navigation of {{ item.title }}" class="toctree-checkbox" id="course-toctree-{{ loop.index }}-{{ section.id }}" name="course-toctree-{{ loop.index }}-{{ section.id }}" role="switch" type="checkbox"{% if is_current %} checked{% endif %}/>
+            <label for="course-toctree-{{ loop.index }}-{{ section.id }}"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label>
+            <ul>
+              {% for child in item.children %}
+                <li class="toctree-l2">
+                  <a class="reference internal" href="{{ course_href(child.href) }}">{{ child.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
