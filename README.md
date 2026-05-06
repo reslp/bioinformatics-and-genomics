@@ -19,11 +19,14 @@ The focus of this module is on essential skills for producing as well as evaluat
 
 ## Run the documentation locally
 
-The course website is built from the `materials/` directory with Sphinx. The repository uses git submodules for the individual lecture materials, so clone/update them before building.
 
-```bash
-git submodule update --init --recursive
+Clone the full repository:
+
 ```
+git clone --recursive https://github.com/reslp/bioinformatics-and-genomics.git
+```
+
+The course website is built from the `materials/` directory with Sphinx hence `--recursive`.
 
 If you have [`uv`](https://docs.astral.sh/uv/) installed, build the HTML site with:
 
@@ -45,3 +48,19 @@ http://127.0.0.1:8051/
 ```
 
 To rebuild after changes, run the `uv run ... sphinx-build ...` command again from the repository root.
+
+## Update content of individual lectures
+
+If you want to update your course content. First make changes to the remote repositories included here.
+
+Then run the following commands to update your part to the latest commit:
+
+(In this case for the `linux-intro` module)
+
+```
+git submodule update --remote materials/linux-intro
+git status
+git add materials/linux-intro
+git commit -m "Update linux-intro exercise" 
+```
+
