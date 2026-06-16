@@ -21,7 +21,7 @@ source_suffix = ['.rst', '.md']
 # -- Project information -----------------------------------------------------
 
 project = "Genomic Methods"
-copyright = "2025, Philipp Resl, Claudio G. Ametrano and Christoph Hahn"
+copyright = "2025 - 2026 Philipp Resl, Claudio G. Ametrano and Christoph Hahn"
 author = "Philipp Resl, Claudio G. Ametrano and Christoph Hahn"
 
 # -- Extensions --------------------------------------------------------------
@@ -222,6 +222,25 @@ course_menu = [
                 {"title": "Pathway analysis and Gene Ontology", "href": "functional_annotation_db/README.html#2-how-to-summarize-the-overwhelming-amount-of-information-of-functional-annotation-pathway-analysis-and-gene-ontology-go"},
                 {"title": "Annotation case study", "href": "functional_annotation_db/README.html#3-annotation-a-case-study-using-cyanobacteria"},
                 {"title": "Enrichment analysis", "href": "functional_annotation_db/README.html#4-enrichment-analysis-application-transcriptomics"},
+            ],
+        }],
+    },
+    {
+        "id": "species-occurence-databases",
+        "caption": "Species occurence databases",
+        "entries": [{
+            "title": "Species occurence databases",
+            "href": "gbif-sdm-practical/README.html",
+            "doc": "gbif-sdm-practical/README",
+            "children": [
+                {"title": "Software", "href": "gbif-sdm-practical/README.html#software-and-r-packages"},
+                {"title": "What is GBIF?", "href": "gbif-sdm-practical/README.html#what-is-gbif"},
+                {"title": "Part1: download data", "href": "gbif-sdm-practical/README.html#part-1-download-occurrence-data-from-gbif"},
+                {"title": "Part2: clean data", "href": "gbif-sdm-practical/README.html#part-2-evaluate-and-clean-gbif-occurrence-data"},
+                {"title": "Part3: plot occurences", "href": "gbif-sdm-practical/README.html#part-3-plot-occurrence-data-in-r-with-ggplot2"},
+                {"title": "Part4: species distribution model", "href": "gbif-sdm-practical/README.html#part-4-build-a-simple-species-distribution-model"},
+                {"title": "Interpreting results", "href": "gbif-sdm-practical/README.html#how-to-interpret-the-sdm-output"},
+                {"title": "References", "href": "gbif-sdm-practical/README.html#references"},
             ],
         }],
     },

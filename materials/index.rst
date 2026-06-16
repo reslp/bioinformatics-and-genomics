@@ -161,3 +161,4 @@ Fundamentals of Reproducible Data Analysis
    reproducibility-workshop/day-2/exercise-4-docker-pitfalls.rst
    reproducibility-workshop/day-3/exercise-1-workflows.rst
    reproducibility-workshop/day-3/exercise-2-phylogenomics.rst
+   gbif-sdm-practical/README.md
